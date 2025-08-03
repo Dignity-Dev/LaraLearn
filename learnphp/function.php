@@ -6,3 +6,10 @@ function greet($name) {
 
 
 echo greet("Haadi");
+
+
+function greetWithTime($time = "day", $name){
+    return "Good " . $time . ", " . $name . "!";
+}
+
+echo greetWithTime("morning", "Haadi");
